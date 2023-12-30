@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="landingpage.css">
+</head>
+<body>
+    <header>
+       <h1><b>View Our Menu</b></h1>
+    </header>&nbsp;
+    <br>
+    <div id="cointiner">
+    <div id="contentbox1" ><img src="img/desert.jpg" alt="" width="50%" height="70%"><p>desert</p><button class="button2">read more</button></div>
+    <div id="contentbox1" ><img src="img/cake.jpg" alt="" width="50%" height="70%"><p>cake</p><button class="button2">read more</button> </div>
+    <div id="contentbox1" ><img src="img/drink.jpg" alt="" width="50%" height="70%"><p>drink</p><button class="button2">read more</button></div>
+    <div id="contentbox1" ><img src="img/salad.jpg" alt="" width="50%" height="70%"><p>salad</p><button class="button2">read more</button></div>
+    </div>
+    
+    
+    
+   
+    <br>
+
+       <footer><b>
+        Click to select the text Element image from Freepik</b>
+       </footer>
+</body>
+</html>
+FOR CSS
+*{
+
+padding: 0;
+margin: 0;
+
+}
+body{
+    background-color:rgb(223, 196, 162);
+    text-align: center;
+}
+
+    
+    
+#contentbox1{
+    height: 300px;
+    width: 1000px;
+    display: inline-block;
+    position: relative;
+    justify-content: space-evenly;
+
+}
+    
+    
+    h1{
+      margin-top: 50px;   
+      margin-right: 200px;
+      text-align: center;
+
+    }
+    #cointiner{
+        height: 500px;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+
+
+    }
+    footer{
+        position: relative;
+       
+        text-align: center;
+        margin-right: 50px;
+        
+    }
+    .button2 {
+        border: none;
+        color: black;
+        padding: 16px 32px;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        
+        background-color:rgb(189, 128, 15);
+        text-align:center;
+        
+        
+        
+      }
